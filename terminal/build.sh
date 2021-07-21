@@ -30,3 +30,10 @@ echo "alias yeet=\"git push\"\n\n" >> ~/.bashrc
 # to load profile: dconf load /org/gnome/terminal/legacy/profiles:/<profile>/ < material-theme-profile.dconf
 PROFILE=$(dconf dump /org/gnome/terminal/legacy/profiles:/ | grep : | head -1 | sed 's/[]\[]//g')
 dconf load /org/gnome/terminal/legacy/profiles:/PROFILE/ < gnome-profile.dconf
+
+# Gnome System monitor
+apt-get install gir1.2-gtop-2.0 gir1.2-nm-1.0 gir1.2-clutter-1.0 gnome-system-monitor nvidia-smi gnome-shell-extensions
+# install on https://extensions.gnome.org/extension/120/system-monitor/
+
+# To get more profiles:
+# bash -c  "$(wget -qO- https://git.io/vQgMr)"
