@@ -1,8 +1,4 @@
 [/]
-default='efde2c64-6481-4e1e-b43e-48122f5e1e86'
-list=['efde2c64-6481-4e1e-b43e-48122f5e1e86']
-
-[:efde2c64-6481-4e1e-b43e-48122f5e1e86]
 audible-bell=false
 background-color='rgb(9,20,27)'
 background-transparency-percent=11
