@@ -1,0 +1,144 @@
+[/]
+default='efde2c64-6481-4e1e-b43e-48122f5e1e86'
+list=['8acc194a-44a3-4072-9773-f7c54ce97bad', 'e4b8a690-6f4a-4780-9a78-bc356562af2e', 'efde2c64-6481-4e1e-b43e-48122f5e1e86', '2549e69b-cec4-426f-a811-065a428665a7', '2980ec94-16b4-45fa-a46d-d6c611e44bce', '6a6cbf65-724c-4246-8015-77335ee71b7d']
+
+[:2549e69b-cec4-426f-a811-065a428665a7]
+audible-bell=false
+background-color='rgb(9,20,27)'
+background-transparency-percent=11
+bold-color-same-as-fg=true
+bold-is-bright=false
+cell-width-scale=1.0
+cursor-blink-mode='off'
+cursor-colors-set=false
+default-size-columns=100
+default-size-rows=25
+font='Ubuntu Mono 14'
+foreground-color='rgb(252,235,215)'
+highlight-colors-set=false
+palette=['rgb(7,54,66)', 'rgb(134,95,91)', 'rgb(68,128,101)', 'rgb(177,169,144)', 'rgb(81,137,148)', 'rgb(213,123,68)', 'rgb(87,147,138)', 'rgb(250,250,250)', 'rgb(93,112,121)', 'rgb(212,151,144)', 'rgb(108,204,161)', 'rgb(255,185,99)', 'rgb(123,208,224)', 'rgb(230,105,60)', 'rgb(82,168,189)', 'rgb(250,250,250)']
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='peterglezroa v3'
+
+[:2980ec94-16b4-45fa-a46d-d6c611e44bce]
+allow-bold=true
+audible-bell=false
+background-color='#282828282828'
+background-transparency-percent=11
+bold-color='#ebebdbdbb2b2'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cell-width-scale=1.0
+cursor-background-color='#ebebdbdbb2b2'
+cursor-blink-mode='off'
+cursor-colors-set=true
+cursor-foreground-color='#282828282828'
+default-size-columns=100
+default-size-rows=25
+font='Ubuntu Mono 14'
+foreground-color='#ebebdbdbb2b2'
+highlight-colors-set=false
+palette=['#282828282828', '#cccc24241d1d', '#989897971a1a', '#d7d799992121', '#454585858888', '#b1b162628686', '#68689d9d6a6a', '#a8a899998484', '#929283837474', '#fbfb49493434', '#b8b8bbbb2626', '#fafabdbd2f2f', '#8383a5a59898', '#d3d386869b9b', '#8e8ec0c07c7c', '#ebebdbdbb2b2']
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='Gruvbox Dark'
+
+[:6a6cbf65-724c-4246-8015-77335ee71b7d]
+allow-bold=true
+audible-bell=false
+background-color='#fbfbf1f1c7c7'
+background-transparency-percent=11
+bold-color='#3c3c38383636'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cell-width-scale=1.0
+cursor-background-color='#3c3c38383636'
+cursor-blink-mode='off'
+cursor-colors-set=true
+cursor-foreground-color='#fbfbf1f1c7c7'
+default-size-columns=100
+default-size-rows=25
+font='Ubuntu Mono 14'
+foreground-color='#3c3c38383636'
+highlight-colors-set=false
+palette=['#fbfbf1f1c7c7', '#cccc24241d1d', '#989897971a1a', '#d7d799992121', '#454585858888', '#b1b162628686', '#68689d9d6a6a', '#7c7c6f6f6464', '#929283837474', '#9d9d00000606', '#797974740e0e', '#b5b576761414', '#070766667878', '#8f8f3f3f7171', '#42427b7b5858', '#3c3c38383636']
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='Gruvbox'
+
+[:8acc194a-44a3-4072-9773-f7c54ce97bad]
+audible-bell=false
+background-color='rgb(7,54,66)'
+background-transparency-percent=7
+bold-color-same-as-fg=true
+bold-is-bright=false
+cell-width-scale=1.0
+cursor-blink-mode='off'
+cursor-colors-set=false
+default-size-columns=100
+default-size-rows=25
+font='Ubuntu Mono 14'
+foreground-color='rgb(236,236,236)'
+highlight-colors-set=false
+palette=['rgb(7,54,66)', 'rgb(134,95,91)', 'rgb(68,128,101)', 'rgb(177,169,144)', 'rgb(81,137,148)', 'rgb(213,123,68)', 'rgb(87,147,138)', 'rgb(250,250,250)', 'rgb(93,112,121)', 'rgb(212,151,144)', 'rgb(108,204,161)', 'rgb(252,240,204)', 'rgb(123,208,224)', 'rgb(227,132,73)', 'rgb(132,224,211)', 'rgb(250,250,250)']
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='peterglezroa v2'
+
+[:e4b8a690-6f4a-4780-9a78-bc356562af2e]
+allow-bold=true
+audible-bell=false
+background-color='rgb(9,20,27)'
+background-transparency-percent=11
+bold-color='#dedeb8b88d8d'
+bold-color-same-as-fg=true
+bold-is-bright=false
+cell-width-scale=1.0
+cursor-background-color='#dedeb8b88d8d'
+cursor-blink-mode='off'
+cursor-colors-set=true
+cursor-foreground-color='#090914141b1b'
+default-size-columns=100
+default-size-rows=25
+font='Ubuntu Mono 14'
+foreground-color='rgb(222,184,141)'
+highlight-colors-set=false
+palette=['rgb(23,56,76)', 'rgb(209,81,35)', 'rgb(2,124,155)', 'rgb(252,160,47)', 'rgb(30,73,80)', 'rgb(104,212,241)', 'rgb(80,163,181)', 'rgb(222,184,141)', 'rgb(67,75,83)', 'rgb(212,134,120)', 'rgb(98,141,152)', 'rgb(253,211,159)', 'rgb(27,188,221)', 'rgb(187,227,238)', 'rgb(135,172,180)', 'rgb(254,228,206)']
+use-system-font=false
+use-theme-background=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='Sea Shells'
+
+[:efde2c64-6481-4e1e-b43e-48122f5e1e86]
+audible-bell=false
+background-color='rgb(9,20,27)'
+background-transparency-percent=11
+bold-color-same-as-fg=true
+bold-is-bright=false
+cell-width-scale=1.0
+cursor-blink-mode='off'
+cursor-colors-set=false
+default-size-columns=100
+default-size-rows=25
+font='Ubuntu Mono 14'
+foreground-color='rgb(255,236,213)'
+highlight-colors-set=false
+palette=['rgb(7,54,66)', 'rgb(134,95,91)', 'rgb(68,128,101)', 'rgb(177,169,144)', 'rgb(81,137,148)', 'rgb(213,123,68)', 'rgb(87,147,138)', 'rgb(250,250,250)', 'rgb(93,112,121)', 'rgb(212,151,144)', 'rgb(108,204,161)', 'rgb(255,185,99)', 'rgb(123,208,224)', 'rgb(230,105,60)', 'rgb(82,168,189)', 'rgb(250,250,250)']
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='peterglezroa'
