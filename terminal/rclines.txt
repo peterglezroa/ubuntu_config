@@ -1,0 +1,15 @@
+# Powerline
+. $POWERLINELOCATION/powerline/bindings/bash/powerline.sh
+
+. \$HOME/bin/z.sh
+
+# wallpaper
+#wal --backend colorthief -i ~/Pictures/wallpapers
+
+# Aliases
+alias sudo=\"sudo \"
+alias venv=\"source .venv/bin/activate\"
+alias yeet=\"git push\"
+alias gudsoup=\"play ~/Music/gudsoup.mp3\"
+alias pikachu=\"play ~/Music/pikachu.mp3\"
+alias itesmvpn=\"openconnect vpnqro.tec.mx --protocol=gp --user A01651517 --passwd-on-stdin\"
