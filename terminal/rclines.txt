@@ -5,6 +5,7 @@
 
 # wallpaper
 #wal --backend colorthief -i ~/Pictures/wallpapers
+cat ~/.cache/wal/sequences
 
 # Aliases
 alias sudo=\"sudo \"
@@ -12,4 +13,5 @@ alias venv=\"source .venv/bin/activate\"
 alias yeet=\"git push\"
 alias gudsoup=\"play ~/Music/gudsoup.mp3\"
 alias pikachu=\"play ~/Music/pikachu.mp3\"
+alias wallpaper=\"wal --backend colorthief -i ~/Pictures/wallpapers\"
 alias itesmvpn=\"openconnect vpnqro.tec.mx --protocol=gp --user A01651517 --passwd-on-stdin\"
