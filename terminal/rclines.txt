@@ -4,7 +4,7 @@
 . \$HOME/bin/z.sh
 
 # wallpaper
-#wal --backend colorthief -i ~/Pictures/wallpapers
+#wal --backend colorthief -i /home/peterglezroa/Pictures/wallpapers -o /home/peterglezroa/bin/openrgb_pywal
 cat ~/.cache/wal/sequences
 
 # Aliases

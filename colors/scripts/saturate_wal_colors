@@ -1,0 +1,51 @@
+#!/bin/env python3
+# Author: Juan Alcantara
+from colour import Color
+from copy import deepcopy
+
+parsed_colors = []
+
+with open("/home/peterglezroa/.cache/wal/colors", "r") as f:
+    for line in f:
+        parsed_colors.append(Color(line.strip()))
+
+PARAMS = ["hue", "saturation", "luminance", "red", "green", "blue"]
+devices_config = [{
+    "file_name": "colors_motherboard",
+    "hue": 0,
+    "saturation": 0,
+    "luminance": 0,
+    "red": 0,
+    "green": 0,
+    "blue": 0
+}, {
+    "file_name": "colors_ram",
+    "hue": 0,
+    "saturation": 0,
+    "luminance": 0,
+    "red": 0,
+    "green": 0,
+    "blue": 0
+}, {
+    "file_name": "colors_pump",
+    "hue": 0,
+    "saturation": 0,
+    "luminance": 0,
+    "red": 0.098,
+    "green": 0.008,
+    "blue": -0.34
+}]
+
+for config in devices_config:
+    with open(f"/home/peterglezroa/.cache/wal/{config['file_name']}", "w") as f:
+        for raw_color in parsed_colors:
+            color = deepcopy(raw_color)
+            for param in PARAMS:
+                new_param = getattr(color,param) + config[param]
+                if new_param >= 0 and new_param <=1:
+                    setattr(color, param, new_param)
+                elif new_param > 1:
+                    setattr(color, param, 1)
+                elif new_param < 0:
+                    setattr(color, param, 0)
+            f.write(f"{color.hex_l.upper()}\n")

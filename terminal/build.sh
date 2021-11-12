@@ -1,6 +1,11 @@
 # Install languages
 apt-get install -y python3 python3-pip neofetch
 
+# Install alacritty
+sudo apt install alacritty
+mkdir ~/.config/alacritty
+ln $PWD/alacritty.yml ~/.config/alacritty/.
+
 # Install Powerline
 apt-get install -y powerline fonts-powerline
 

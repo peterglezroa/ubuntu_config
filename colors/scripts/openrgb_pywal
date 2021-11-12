@@ -1,0 +1,33 @@
+#!/usr/bin/bash
+# Author: Juan Alcantara
+
+/home/peterglezroa/bin/saturate_wal_colors
+ram_color0=`cat ~/.cache/wal/colors_ram | head -1 | grep -oP "([A-z]|[0-9]){6}"`
+ram_color1=`cat ~/.cache/wal/colors_ram | head -2 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+ram_color2=`cat ~/.cache/wal/colors_ram | head -3 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+ram_color3=`cat ~/.cache/wal/colors_ram | head -4 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+ram_color4=`cat ~/.cache/wal/colors_ram | head -5 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+ram_color5=`cat ~/.cache/wal/colors_ram | head -6 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+ram_color6=`cat ~/.cache/wal/colors_ram | head -7 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+ram_color7=`cat ~/.cache/wal/colors_ram | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+
+mother_color0=`cat ~/.cache/wal/colors_motherboard | head -1 | grep -oP "([A-z]|[0-9]){6}"`
+mother_color1=`cat ~/.cache/wal/colors_motherboard | head -2 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+mother_color2=`cat ~/.cache/wal/colors_motherboard | head -3 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+mother_color3=`cat ~/.cache/wal/colors_motherboard | head -4 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+mother_color4=`cat ~/.cache/wal/colors_motherboard | head -5 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+mother_color5=`cat ~/.cache/wal/colors_motherboard | head -6 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+mother_color6=`cat ~/.cache/wal/colors_motherboard | head -7 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+mother_color7=`cat ~/.cache/wal/colors_motherboard | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+
+pump_color0=`cat ~/.cache/wal/colors_pump | head -1 | grep -oP "([A-z]|[0-9]){6}"`
+pump_color1=`cat ~/.cache/wal/colors_pump | head -2 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+pump_color2=`cat ~/.cache/wal/colors_pump | head -3 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+pump_color3=`cat ~/.cache/wal/colors_pump | head -4 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+pump_color4=`cat ~/.cache/wal/colors_pump | head -5 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+pump_color5=`cat ~/.cache/wal/colors_pump | head -6 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+pump_color6=`cat ~/.cache/wal/colors_pump | head -7 | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+pump_color7=`cat ~/.cache/wal/colors_pump | tail -1 | grep -oP "([A-z]|[0-9]){6}"`
+
+/usr/bin/openrgb --noautoconnect -d 0 -m direct -c ${ram_color4:u}
+/usr/bin/openrgb --noautoconnect -d 1 -z 0 -m direct -c ${mother_color4:u}
