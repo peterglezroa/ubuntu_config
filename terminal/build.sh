@@ -15,7 +15,7 @@ echo "\n\n# Powerline" >> ~/.bashrc
 echo ". $POWERLINELOCATION/powerline/bindings/bash/powerline.sh" >> ~/.bashrc
 
 # Copy Powerline configuration
-cp -r ./config/ ~/.config/powerline/
+ln -s $PWD/powerline/ ~/.config/powerline/
 
 # Hide gnome title bar
 apt install gnome-shell-extension-pixelsaver
