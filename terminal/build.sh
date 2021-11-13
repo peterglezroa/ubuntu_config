@@ -2,7 +2,7 @@
 apt-get install -y python3 python3-pip neofetch
 
 # Install alacritty
-sudo apt install alacritty
+snap install alacritty --classic
 mkdir ~/.config/alacritty
 ln $PWD/alacritty.yml ~/.config/alacritty/.
 
@@ -16,6 +16,12 @@ echo ". $POWERLINELOCATION/powerline/bindings/bash/powerline.sh" >> ~/.bashrc
 
 # Copy Powerline configuration
 cp -r ./config/ ~/.config/powerline/
+
+# Hide gnome title bar
+apt install gnome-shell-extension-pixelsaver
+gnome-extensions enable pixel-saver@deadalnix.me
+gsettings set org.gnome.Terminal.Legacy.Settings headerbar false
+gsettings set org.gnome.Terminal.Legacy.Settings default-show-menubar false
 
 # z script
 cd ~/Documents
@@ -33,12 +39,8 @@ echo "alias yeet=\"git push\"\n\n" >> ~/.bashrc
 # Make sure to make a profile
 # To see profiles: dconf dump /org/gnome/terminal/legacy/profiles:/
 # to load profile: dconf load /org/gnome/terminal/legacy/profiles:/<profile>/ < material-theme-profile.dconf
-dconf reset -f /org/gnome/terminal/legacy/profiles:/
-dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-profilev3.dconf
-
-# Gnome System monitor
-#apt-get install gir1.2-gtop-2.0 gir1.2-nm-1.0 gir1.2-clutter-1.0 gnome-system-monitor nvidia-smi gnome-shell-extensions
-# install on https://extensions.gnome.org/extension/120/system-monitor/
+#dconf reset -f /org/gnome/terminal/legacy/profiles:/
+#dconf load /org/gnome/terminal/legacy/profiles:/ < gnome-profilev3.dconf
 
 # To get more profiles:
 # bash -c  "$(wget -qO- https://git.io/vQgMr)"
