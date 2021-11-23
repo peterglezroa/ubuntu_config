@@ -44,3 +44,7 @@ echo "alias yeet=\"git push\"\n\n" >> ~/.bashrc
 
 # To get more profiles:
 # bash -c  "$(wget -qO- https://git.io/vQgMr)"
+
+# Copy xsession
+ln -s $PWD/xsession $HOME/.xsession
+chmod u+x $HOME/.xsession
