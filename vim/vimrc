@@ -9,8 +9,8 @@ set number
 " Map Ctrl-Backspace to delete the previous word in insert mode.
 imap <C-BS> <C-W>
 
-"autocmd FileType c setlocal tabstop=2 shiftwidth=2 softtabstop=2 expandtab
-"autocmd FileType cpp setlocal tabstop=2 shiftwidth=2 softtabstop=2 expandtab
+autocmd FileType c setlocal tabstop=2 shiftwidth=2 softtabstop=2 expandtab
+autocmd FileType cpp setlocal tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 autocmd FileType dart setlocal tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 autocmd FileType scala setlocal tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 autocmd FileType markdown setlocal tabstop=2 shiftwidth=2 softtabstop=2 expandtab
