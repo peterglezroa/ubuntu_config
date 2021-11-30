@@ -2,5 +2,3 @@
 
 wal -i "$(< "${HOME}/.cache/wal/wal")" --backend colorthief
 /home/peterglezroa/bin/openrgb_pywal
-
-sudo sh -c "echo \"disabled\" > /sys/bus/usb/devices/3-1/power/wakeup"
