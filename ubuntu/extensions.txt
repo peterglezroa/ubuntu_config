@@ -1,0 +1,8 @@
+# NetSpeed
+https://extensions.gnome.org/extension/104/netspeed/
+
+# hide top bar
+https://extensions.gnome.org/extension/545/hide-top-bar/
+
+# pixel saver
+https://extensions.gnome.org/extension/723/pixel-saver/
