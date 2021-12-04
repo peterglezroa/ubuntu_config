@@ -19,3 +19,9 @@ make install
 mkdir $HOME/.config/polybar
 ln -s $PWD/config.ini $HOME/.config/polybar/.
 ln -s $PWD/launch.sh $HOME/.config/polybar/.
+
+ln -s $PWD/scripts/spotify.py $HOME/.config/polybar/.
+ln -s $PWD/scripts/bluetooth.sh $HOME/.config/polybar/.
+
+# Autolaunch polybar
+cp $PWD/polybar.desktop $HOME/.config/autostart/.

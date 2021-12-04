@@ -1,5 +1,7 @@
 pip3 install colorz pywal colorthief
 
+sudo apt-get install -y fonts-font-awsome
+
 # Wallpaper directory
 ln -s ./images/wallpapers $HOME/Pictures/wallpapers
 
@@ -15,3 +17,7 @@ ln -s ./images/wallpapers $HOME/Pictures/wallpapers
 # echo 'cat ~/.cache/wal/sequences' >> ~/.bashrc
 # Hide sidebar
 # Appearance -> Behavior -> Auto Hide Launcher
+
+# Fonts
+# unzip fonts and send to .fonts
+# unzip fontawesome

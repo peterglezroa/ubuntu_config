@@ -15,9 +15,10 @@ if type "xrandr"; then
       MONITOR=$m polybar --reload HDMI-1 2>&1 | tee -a /tmp/polybar_hdmi.log & disown
     else
       MONITOR=$m polybar --reload peterglezroa 2>&1 | tee -a /tmp/polybar_peterglezroa.log & disown
+#      MONITOR=$m polybar --reload peterglezroa
     fi
   done
 else
-  polybar peterglezroa >>/tmp/polybarpeterglezroa.log 2>&1 &
+  polybar peterglezroa >>/tmp/polybar_peterglezroa.log 2>&1 &
   echo "Bar launched..."
 fi

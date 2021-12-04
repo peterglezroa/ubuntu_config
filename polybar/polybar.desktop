@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/peterglezroa/.config/polybar/launch.sh
+Hidden=false
+StartupNotify=false
+Terminal=false
+NoDisplay=false
+X-MATE-Autostart-enabled=true
+Name=Polybar
