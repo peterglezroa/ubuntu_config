@@ -19,5 +19,5 @@ ln -s ./images/wallpapers $HOME/Pictures/wallpapers
 # Appearance -> Behavior -> Auto Hide Launcher
 
 # Fonts
-# unzip fonts and send to .fonts
-# unzip fontawesome
+unzip ./fonts/VitcorMono.zip
+mv ./fonts/*.ttf /usr/local/share/fonts

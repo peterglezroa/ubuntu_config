@@ -7,14 +7,15 @@ mkdir ~/.config/alacritty
 ln $PWD/alacritty.yml ~/.config/alacritty/.
 
 # Install Powerline
-apt-get install -y powerline fonts-powerline
+apt-get install -y powerline fonts-powerline powerline-gitstatus
 
-# Add Powerline to bash
-POWERLINELOCATION=$(pip3 show powerline-status | grep Location | tr -s ' ' '#' | cut -f2 -d#)
-echo "\n\n# Powerline" >> ~/.bashrc
-echo ". $POWERLINELOCATION/powerline/bindings/bash/powerline.sh" >> ~/.bashrc
+# Add Powerline to bashrc
+#if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
+#    source /usr/lib/python3/dist-packages/powerline/bindings/bash/powerline.sh
+#fi
 
 # Copy Powerline configuration
+mkdir $HOME/.config/powerline
 ln -s $PWD/powerline/ ~/.config/powerline/
 
 # Hide gnome title bar
@@ -26,14 +27,14 @@ gsettings set org.gnome.Terminal.Legacy.Settings default-show-menubar false
 # z script
 cd ~/Documents
 git clone https://github.com/rupa/z
-mv z/z.sh ~/bin
+mv z/z.sh ~/bin/.
 rm -rf z
 echo ". \$HOME/bin/z.sh" >> ~/.bashrc
 
 # Aliases
-echo "\n\n # Aliases" >> ~/.bashrc
-echo "alias venv=\"source .venv/bin/activate\"\n" >> ~/.bashrc
-echo "alias yeet=\"git push\"\n\n" >> ~/.bashrc
+echo "# Aliases" >> ~/.bashrc
+echo "alias venv=\"source .venv/bin/activate\"" >> ~/.bashrc
+echo "alias yeet=\"git push\"" >> ~/.bashrc
 
 # Copy profile to gnome
 # Make sure to make a profile
