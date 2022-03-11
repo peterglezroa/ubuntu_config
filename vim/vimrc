@@ -50,9 +50,17 @@ noremap <Leader><Leader> :let @/=''<cr>
 :highlight ExtraWhitespace ctermbg=red guibg=red
 :match ExtraWhitespace /\s\+$/
 
+" Latex
+" Must install: zathura, 
+syntax enable
+let g:vimtex_view_method = 'zathura'
+let g:vimtex_view_general_viewer = 'okular'
+let g:vimtex_view_general_options = '--unique file:@pdf\#src:@line@tex'
+
 call plug#begin("~/.vim/plugged")
   " VIMTEX
-  "Plug 'lervag/vimtex'
+  Plug 'lervag/vimtex'
+  " live preview needs evince (gnome def) or okular for pdf viewers.
 
   " NERDTree
   Plug 'scrooloose/nerdTree', {'on': 'NERDTreeToggle'}
